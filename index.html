@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dojo of Bytes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="cord"></div>
+<div class="stage">
+  <div class="plaque">
+    <span class="en">DOJO OF BYTES</span>
+    <span class="orn">&#9670; &#9670; &#9670;</span>
+  </div>
+
+  <div class="frame">
+    <div class="scroll-side left">
+      <span class="ornament o1"></span>
+      <span class="bar b1"></span>
+      <span class="ornament o2"></span>
+      <span class="bar b2"></span>
+      <span class="ornament o3"></span>
+      <span class="bar b3"></span>
+      <span class="ornament o4"></span>
+      <span class="bar b4"></span>
+      <span class="ornament o5"></span>
+    </div>
+    <div class="scroll-side right">
+      <span class="ornament o1"></span>
+      <span class="bar b1"></span>
+      <span class="ornament o2"></span>
+      <span class="bar b2"></span>
+      <span class="ornament o3"></span>
+      <span class="bar b3"></span>
+      <span class="ornament o4"></span>
+      <span class="bar b4"></span>
+      <span class="ornament o5"></span>
+    </div>
+
+    <div class="corner tl"><svg viewBox="0 0 40 40"><g fill="none" stroke="#d9b85c" stroke-width="1.5">
+      <circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2.5" fill="#d9b85c"/>
+      <path d="M12 4 L12 8 M20 12 L16 12 M12 20 L12 16 M4 12 L8 12 M6 6 L9 9 M18 6 L15 9 M18 18 L15 15 M6 18 L9 15"/>
+    </g></svg></div>
+    <div class="corner tr"><svg viewBox="0 0 40 40"><g fill="none" stroke="#d9b85c" stroke-width="1.5">
+      <circle cx="28" cy="12" r="6"/><circle cx="28" cy="12" r="2.5" fill="#d9b85c"/>
+      <path d="M28 4 L28 8 M36 12 L32 12 M28 20 L28 16 M20 12 L24 12 M22 6 L25 9 M34 6 L31 9 M34 18 L31 15 M22 18 L25 15"/>
+    </g></svg></div>
+    <div class="corner bl"><svg viewBox="0 0 40 40"><g fill="none" stroke="#d9b85c" stroke-width="1.5">
+      <circle cx="12" cy="28" r="6"/><circle cx="12" cy="28" r="2.5" fill="#d9b85c"/>
+      <path d="M12 20 L12 24 M20 28 L16 28 M12 36 L12 32 M4 28 L8 28 M6 22 L9 25 M18 22 L15 25 M18 34 L15 31 M6 34 L9 31"/>
+    </g></svg></div>
+    <div class="corner br"><svg viewBox="0 0 40 40"><g fill="none" stroke="#d9b85c" stroke-width="1.5">
+      <circle cx="28" cy="28" r="6"/><circle cx="28" cy="28" r="2.5" fill="#d9b85c"/>
+      <path d="M28 20 L28 24 M36 28 L32 28 M28 36 L28 32 M20 28 L24 28 M22 22 L25 25 M34 22 L31 25 M34 34 L31 31 M22 34 L25 31"/>
+    </g></svg></div>
+
+    <canvas id="game" width="960" height="540"></canvas>
+  </div>
+
+  <div class="motto">
+    <span class="en">FIST<span class="sep">&middot;</span>HEART<span class="sep">&middot;</span>TECHNIQUE</span>
+  </div>
+</div>
+
+<script src="src/config.js"></script>
+<script src="src/utils.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/input.js"></script>
+<script src="src/fx.js"></script>
+<script src="src/background.js"></script>
+<script src="src/sprites.js"></script>
+<script src="src/entities.js"></script>
+<script src="src/projectiles.js"></script>
+<script src="src/pickups.js"></script>
+<script src="src/waves.js"></script>
+<script src="src/hud.js"></script>
+<script src="src/screens.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
