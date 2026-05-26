@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Dojo of Bytes — A Duel of Code and Steel">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0612"/>
+      <stop offset="35%" stop-color="#1a1530"/>
+      <stop offset="75%" stop-color="#3a2238"/>
+      <stop offset="100%" stop-color="#2a1a14"/>
+    </linearGradient>
+    <radialGradient id="moonGrad">
+      <stop offset="0%" stop-color="#f4ead8"/>
+      <stop offset="80%" stop-color="#c4b894"/>
+      <stop offset="100%" stop-color="#8a7a50"/>
+    </radialGradient>
+    <radialGradient id="moonHalo">
+      <stop offset="0%" stop-color="#f4ead8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f4ead8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d878"/>
+      <stop offset="50%" stop-color="#d9b85c"/>
+      <stop offset="100%" stop-color="#8a6020"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bgGrad)"/>
+
+  <circle cx="970" cy="65" r="55" fill="url(#moonHalo)"/>
+  <circle cx="970" cy="65" r="30" fill="url(#moonGrad)"/>
+  <circle cx="962" cy="60" r="3" fill="#c4b894" opacity="0.6"/>
+  <circle cx="978" cy="72" r="2" fill="#c4b894" opacity="0.6"/>
+  <circle cx="967" cy="76" r="1.5" fill="#c4b894" opacity="0.6"/>
+
+  <g fill="#f0e8c8">
+    <circle cx="80" cy="35" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="75" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="50" r="1.5"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="90" r="1"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="40" r="1.3"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="80" r="1"><animate attributeName="opacity" values="0.7;1;0.7" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="55" r="1.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="35" r="1"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="85" r="1.2"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="45" r="1"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="70" r="1.3"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="40" r="1"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g>
+    <ellipse cx="80" cy="-10" rx="4" ry="2.5" fill="#ffb8d4">
+      <animate attributeName="cy" from="-10" to="350" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="80;105;80;55;80" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="220" cy="-10" rx="3.5" ry="2" fill="#ffd0e2">
+      <animate attributeName="cy" from="-10" to="350" dur="11s" begin="-3s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="220;245;220;195;220" dur="11s" begin="-3s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="360" cy="-10" rx="4" ry="2.5" fill="#ffb8d4">
+      <animate attributeName="cy" from="-10" to="350" dur="10s" begin="-5s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="360;385;360;335;360" dur="10s" begin="-5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="480" cy="-10" rx="3" ry="2" fill="#d88aa8">
+      <animate attributeName="cy" from="-10" to="350" dur="12s" begin="-2s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="480;500;480;460;480" dur="12s" begin="-2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="640" cy="-10" rx="4" ry="2.5" fill="#ffd0e2">
+      <animate attributeName="cy" from="-10" to="350" dur="9.5s" begin="-7s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="640;665;640;615;640" dur="9.5s" begin="-7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="800" cy="-10" rx="3.5" ry="2" fill="#ffb8d4">
+      <animate attributeName="cy" from="-10" to="350" dur="11s" begin="-4s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="800;825;800;775;800" dur="11s" begin="-4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="900" cy="-10" rx="3" ry="2" fill="#d88aa8">
+      <animate attributeName="cy" from="-10" to="350" dur="10.5s" begin="-6s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="900;920;900;880;900" dur="10.5s" begin="-6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1080" cy="-10" rx="4" ry="2.5" fill="#ffd0e2">
+      <animate attributeName="cy" from="-10" to="350" dur="9s" begin="-1s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1080;1105;1080;1055;1080" dur="9s" begin="-1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1150" cy="-10" rx="3.5" ry="2" fill="#ffb8d4">
+      <animate attributeName="cy" from="-10" to="350" dur="11s" begin="-8s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1150;1170;1150;1130;1150" dur="11s" begin="-8s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g transform="translate(140 180)">
+    <g>
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="2.5s" repeatCount="indefinite"/>
+      <rect x="-42" y="-6" width="84" height="12" fill="url(#goldGrad)"/>
+      <rect x="-6" y="-42" width="12" height="84" fill="url(#goldGrad)"/>
+      <rect x="-42" y="-6" width="84" height="3" fill="#f0d878"/>
+      <rect x="-6" y="-42" width="3" height="84" fill="#f0d878"/>
+      <rect x="-42" y="3" width="84" height="3" fill="#8a6020"/>
+      <rect x="3" y="-42" width="3" height="84" fill="#8a6020"/>
+      <polygon points="-42,-6 -50,0 -42,6" fill="#8a6020"/>
+      <polygon points="42,-6 50,0 42,6" fill="#8a6020"/>
+      <polygon points="-6,-42 0,-50 6,-42" fill="#8a6020"/>
+      <polygon points="-6,42 0,50 6,42" fill="#8a6020"/>
+      <circle r="9" fill="#1a0f06"/>
+      <circle r="5" fill="#d9b85c"/>
+      <circle r="2" fill="#f0d878"/>
+    </g>
+  </g>
+
+  <g transform="translate(1060 180)">
+    <g>
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="360" to="0" dur="2.5s" repeatCount="indefinite"/>
+      <rect x="-42" y="-6" width="84" height="12" fill="url(#goldGrad)"/>
+      <rect x="-6" y="-42" width="12" height="84" fill="url(#goldGrad)"/>
+      <rect x="-42" y="-6" width="84" height="3" fill="#f0d878"/>
+      <rect x="-6" y="-42" width="3" height="84" fill="#f0d878"/>
+      <rect x="-42" y="3" width="84" height="3" fill="#8a6020"/>
+      <rect x="3" y="-42" width="3" height="84" fill="#8a6020"/>
+      <polygon points="-42,-6 -50,0 -42,6" fill="#8a6020"/>
+      <polygon points="42,-6 50,0 42,6" fill="#8a6020"/>
+      <polygon points="-6,-42 0,-50 6,-42" fill="#8a6020"/>
+      <polygon points="-6,42 0,50 6,42" fill="#8a6020"/>
+      <circle r="9" fill="#1a0f06"/>
+      <circle r="5" fill="#d9b85c"/>
+      <circle r="2" fill="#f0d878"/>
+    </g>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="78" font-weight="900" fill="#f0d878" letter-spacing="6">
+    DOJO OF BYTES
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="600" y="205" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="18" font-weight="700" fill="#c8302e" letter-spacing="8">— A DUEL OF CODE AND STEEL —</text>
+
+  <line x1="280" y1="240" x2="585" y2="240" stroke="#d9b85c" stroke-width="2"/>
+  <line x1="615" y1="240" x2="920" y2="240" stroke="#d9b85c" stroke-width="2"/>
+  <polygon points="600,232 608,240 600,248 592,240" fill="#f0d878"/>
+  <polygon points="600,234 606,240 600,246 594,240" fill="#d9b85c"/>
+
+  <text x="600" y="282" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#b08840" letter-spacing="12">FIST &#183; HEART &#183; TECHNIQUE</text>
+
+  <text x="600" y="318" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="10" fill="#8a6020" letter-spacing="3">A WAVE-BASED NINJA ARENA</text>
+</svg>
