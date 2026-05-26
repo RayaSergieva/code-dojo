@@ -2,6 +2,8 @@
 
 <img src="banner.svg" alt="Dojo of Bytes" width="100%">
 
+**▶ Open `index.html` in your browser to play. No install required.**
+
 </div>
 
 ## ⚔️ code-dojo
@@ -84,14 +86,14 @@ Long ago, the dojo stood as a place of learning, where masters of the blade trai
 
 | Key | Action | Spirit Cost |
 |:---:|:---|:---:|
-| <kbd>A</kbd> <kbd>D</kbd> | Move left or right |  |
-| <kbd>Space</kbd> | Jump (press again in air to double-jump) |  |
-| <kbd>J</kbd> | Slash with katana |  |
+| <kbd>A</kbd> <kbd>D</kbd> | Move left or right | Free |
+| <kbd>Space</kbd> | Jump (press again in air to double-jump) | Free |
+| <kbd>J</kbd> | Slash with katana | Free |
 | <kbd>K</kbd> | Throw shuriken | 15 |
 | <kbd>L</kbd> | Dash forward with invincibility | 10 |
 | <kbd>I</kbd> | Ki burst, clears the entire screen | 100 |
-| <kbd>M</kbd> | Mute or unmute audio |  |
-| <kbd>R</kbd> | Restart after victory or defeat |  |
+| <kbd>M</kbd> | Mute or unmute audio | Free |
+| <kbd>R</kbd> | Restart after victory or defeat | Free |
 
 </div>
 
@@ -107,7 +109,7 @@ Each cleared stage restores one heart of health and grants a brief moment to bre
 
 ## 🚀 How to Play
 
-Open `index.html` in any modern browser. That's it.
+Open `index.html` in any modern browser. The game runs entirely on your machine, no installation, no plugins, no internet connection required. Use the keyboard controls listed above to move, attack, and survive.
 
 ## 🛠️ How It's Built
 
@@ -153,7 +155,7 @@ I also learned that the most fun part of game development isn't the code. It's t
 
 ## 📜 License
 
-MIT. See [LICENSE](LICENSE).
+Released under the **MIT License**. See [LICENSE](LICENSE) for the full text. You're free to use, modify, and share this code for any purpose.
 
 <div align="center">
 
